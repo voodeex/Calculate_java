@@ -1,0 +1,10 @@
+<resources>
+    <color name="page">#F5F8F6</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="ink">#13261F</color>
+    <color name="muted">#465A51</color>
+    <color name="accent">#17634E</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="outline">#768D82</color>
+    <color name="progress_track">#D5E5DC</color>
+</resources>

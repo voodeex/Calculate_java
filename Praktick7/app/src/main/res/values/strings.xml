@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Анкета и опрос</string>
+    <string name="welcome_title">Расскажите о себе</string>
+    <string name="welcome_description">Заполните личные данные, укажите контакты и выберите тему опроса. Черновик сохраняется автоматически.</string>
+    <string name="start">Начать анкету</string>
+    <string name="resume">Продолжить анкету</string>
+    <string name="steps">%1$d из %2$d полей заполнено</string>
+    <string name="step_count">Шаг %1$d из %2$d</string>
+    <string name="personal_title">Личные данные</string>
+    <string name="contacts_title">Контакты</string>
+    <string name="survey_title">Вопрос опроса</string>
+    <string name="name">Имя и фамилия</string>
+    <string name="birth">Дата рождения</string>
+    <string name="birth_format">ДД.ММ.ГГГГ</string>
+    <string name="email">Электронная почта</string>
+    <string name="phone">Телефон</string>
+    <string name="topic">Какая тема вам интереснее?</string>
+    <string-array name="topics">
+        <item>Выберите тему</item>
+        <item>Мобильная разработка</item>
+        <item>Веб-разработка</item>
+        <item>Дизайн интерфейсов</item>
+    </string-array>
+    <string name="contact_allowed">Можно связаться со мной по поводу опроса</string>
+    <string name="next">Далее</string>
+    <string name="back">Назад</string>
+    <string name="finish">К итогам</string>
+    <string name="missing_name">Введите имя и фамилию</string>
+    <string name="invalid_birth">Укажите существующую дату рождения</string>
+    <string name="invalid_email">Укажите адрес в формате name@example.org</string>
+    <string name="invalid_phone">Введите номер телефона из 10–15 цифр</string>
+    <string name="missing_topic">Выберите тему опроса</string>
+    <string name="storage_error">Не удалось прочитать или сохранить черновик</string>
+    <string name="summary_title">Итоги анкеты</string>
+    <string name="summary_description">Проверьте ответы перед отправкой.</string>
+    <string name="summary_contact">Разрешение на связь</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="edit">Вернуться к анкете</string>
+    <string name="share">Поделиться анкетой</string>
+    <string name="share_error">Не удалось открыть приложение для отправки</string>
+    <string name="share_body">Анкета и опрос\n\nИмя: %1$s\nДата рождения: %2$s\nПочта: %3$s\nТелефон: %4$s\nТема: %5$s\nРазрешение на связь: %6$s</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/page_padding"
+        android:paddingTop="@dimen/top_padding"
+        android:paddingEnd="@dimen/page_padding"
+        android:paddingBottom="@dimen/page_padding">
+
+        <TextView
+            android:id="@+id/label_app"
+            style="@style/SurveyCaption"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/SurveyTitle"
+            android:layout_marginTop="@dimen/section_gap"
+            android:text="@string/welcome_title" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/SurveyBody"
+            android:layout_marginTop="@dimen/field_gap"
+            android:text="@string/welcome_description" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_start"
+            style="@style/SurveyButton"
+            android:layout_marginTop="@dimen/field_gap"
+            android:text="@string/start" />
+
+        <TextView
+            android:id="@+id/storage_status"
+            style="@style/SurveyCaption"
+            android:layout_marginTop="@dimen/field_gap"
+            android:text="@string/storage_error"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

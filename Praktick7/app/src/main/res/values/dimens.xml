@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="page_padding">24dp</dimen>
+    <dimen name="top_padding">32dp</dimen>
+    <dimen name="section_gap">24dp</dimen>
+    <dimen name="field_gap">14dp</dimen>
+    <dimen name="label_gap">4dp</dimen>
+    <dimen name="panel_padding">18dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="indicator_height">6dp</dimen>
+    <dimen name="corner_size">16dp</dimen>
+    <dimen name="title_size">32sp</dimen>
+    <dimen name="body_size">16sp</dimen>
+    <dimen name="caption_size">14sp</dimen>
+</resources>
