@@ -1,0 +1,29 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "number": "A-1001",
+      "total": 3450.0,
+      "paid": true,
+      "customer": {"name": "Орлов П.", "city": "Тула"},
+      "items": ["клавиатура", "мышь"]
+    },
+    {
+      "id": 2,
+      "number": "A-1002",
+      "total": 12990.5,
+      "paid": false,
+      "customer": {"name": "Волкова Е.", "city": "Пермь"},
+      "items": ["монитор"]
+    },
+    {
+      "id": 3,
+      "number": "A-1003",
+      "total": 780.0,
+      "paid": true,
+      "customer": {"name": "Белов А.", "city": "Омск"},
+      "items": ["кабель", "адаптер", "чехол"]
+    }
+  ],
+  "total": 3
+}
